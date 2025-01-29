@@ -7,7 +7,7 @@
 #Hospice{color:white; 
         border:2px solid green;
         background:black;}
-        p{background-color:#F5DEb3;
+        p{background-color:#f0f0f0;
          border-radius:4px;}
         
         #pics{height:150px;
@@ -22,13 +22,14 @@ con{color:#f5deb1;}
 a{text-decoration:none;
 color:black;}
 h3{text-decoration:underline;}
+.slogan{font-style:italic;}
 
 </style>
 <title>stocksheet</title>
 
 </head>
 <body>
-<h1 align="center" id="Hospice">Timeless Tile <con>Construction</con></h1>
+<h1 align="center" id="Hospice">Timeless Tililng <con>Construction</con></h1>
 <br>
 <hr>
 <button align="center" onclick="butt()">Services</button>
@@ -47,7 +48,7 @@ h3{text-decoration:underline;}
 
 
 
-<p><b>Its our duty to create a beautiful,functional and durable surface that enhance the appearance of homes and buildings.</b></p><hr>
+<p><b>It's our duty to create a beautiful,functional and durable surface that enhance the appearance of homes and buildings.</b></p><hr>
 
 
 <div id="pictures">
@@ -61,7 +62,14 @@ h3{text-decoration:underline;}
   <a href="IMG_20250122_205350_428.jpg"><img src="IMG_20250122_205350_428.jpg"  id="pic"></a>
   <a href="IMG_20250122_232054_919.jpg"><img src="IMG_20250122_232054_919.jpg"  width="220px" height="180px"></a>
  <a href="IMG_20250122_205831_703.jpg"> <img src="IMG_20250122_205831_703.jpg"  id="picc"></a>
-<a href="Ttc2.png"><img src="Ttc2.png" width="220px" height="180px">
+
+
+
+
+
+
+
+<a href="Ttc2.png"><img src="Ttc2.png" width="220px" height="180px"></a>
 
 </div>
 
@@ -104,20 +112,22 @@ document.body.appendChild("picc");
 
 
 
-window.onload = function(){
-
-var butt = document.getElementById("butt");
-butt.onclick = window.location.href="services.htm"
-
-
+</script>
+<script>
+function butt(){ window.location.href="services.html";
 
 
 }
 
 
 
-
 </script>
+
+
+
+
+
+
 <br>
 <footer>
 <div id="contacts">
@@ -137,6 +147,8 @@ butt.onclick = window.location.href="services.htm"
 
 </footer>
 
+
+<p class="slogan"> Your choice, our promise</p>
 
 </body>
 </html>
